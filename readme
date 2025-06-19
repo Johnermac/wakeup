@@ -1,0 +1,5 @@
+sudo apt install bat
+sudo apt install fzf
+sudo apt install code
+
+usage: ./code_review_helper.sh < path > < py,go,rb,js,php,docker >

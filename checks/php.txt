@@ -1,0 +1,27 @@
+eval(
+exec(
+shell_exec(
+system(
+passthru(
+` (backticks)
+create_function( 
+preg_replace("/e",
+unserialize(
+include(
+include_once(
+require(
+require_once(
+file_get_contents("php://input")
+file_put_contents("/tmp
+curl_exec
+curl_setopt($ch, CURLOPT_URL, $user_input)
+move_uploaded_file
+fopen("/tmp
+tempnam
+mkdir($user_input)
+copy($user_input, ...)
+unlink($user_input)
+extract($_GET)
+parse_str($_GET) 
+$GLOBALS[$user_input]
+$$variable

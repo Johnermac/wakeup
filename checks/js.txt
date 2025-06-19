@@ -1,0 +1,39 @@
+eval(
+Function(
+setTimeout(
+setInterval(
+document.write(
+document.writeln(
+innerHTML
+outerHTML
+outerText
+innerText
+location.href
+location.replace
+location.assign
+window.location
+window.name
+localStorage
+sessionStorage
+postMessage(
+atob(
+btoa(
+new Function
+new ActiveXObject
+RegExp(
+XMLHttpRequest
+fetch(
+importScripts(
+with (
+window["
+self["
+Object.assign(
+Object.prototype
+Object.defineProperty(
+__proto__
+constructor.prototype
+hasOwnProperty.call
+crypto.createHash
+crypto.randomBytes
+require('crypto')
+Buffer(

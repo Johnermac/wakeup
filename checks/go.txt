@@ -1,0 +1,27 @@
+exec.Command
+exec.LookPath
+os/exec
+db.Query(
+db.Exec(
+gorm.DB.Raw(
+gorm.DB.Exec(
+http.Get(
+http.Post(
+http.NewRequest(
+InsecureSkipVerify: true
+jwt.SigningMethodNone
+jwt.Parse
+crypto/md5
+crypto/sha1
+ioutil.TempFile
+os.CreateTemp
+os.OpenFile
+rand.Read(
+tls.Config{
+fmt.Sprintf(
+recover()
+panic(
+password
+SECRET_KEY
+PRIVATE_KEY
+AWS_SECRET

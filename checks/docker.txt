@@ -1,0 +1,14 @@
+FROM .*:latest
+USER root
+ADD http
+ADD ftp
+EXPOSE 2375
+ENV .*_SECRET
+ENV .*_PASSWORD
+privileged:\s*true
+network_mode:\s*host
+volumes:\s*\[?\/.*
+volumes:\s*\[?\/var\/run\/docker.sock
+restart:\s*always
+mem_limit:\s*"?0"?$
+cpu_shares:\s*0$
