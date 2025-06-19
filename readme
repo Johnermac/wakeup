@@ -2,7 +2,7 @@ sudo apt install bat
 sudo apt install fzf
 sudo apt install code
 
-usage: ./code_review_helper.sh <foler_path> <option>
+usage: ./code_review_helper.sh <folder_path> <option>
 
 options:
   py
