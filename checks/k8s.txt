@@ -1,0 +1,17 @@
+runAsUser:\s*0
+privileged:\s*true
+allowPrivilegeEscalation:\s*true
+readOnlyRootFilesystem:\s*false
+hostPath:
+hostNetwork:\s*true
+hostPID:\s*true
+hostIPC:\s*true
+limits:\s*{}
+requests:\s*{}
+name:\s*cluster-admin
+verbs:\s*\["\*"\]
+resources:\s*\["\*"\]
+type:\s*NodePort
+type:\s*LoadBalancer
+host:\s*"\s*"
+tls:\s*\[\]
