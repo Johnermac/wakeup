@@ -1,8 +1,15 @@
+Its a simple "grep -rn" that searchs potentially dangerous strings in a language and sends to fzf. 
+You can analyze the code there or press enter and it will open vscode directly on the line grep'd.
+
+```
 sudo apt install bat
 sudo apt install fzf
 sudo apt install code
+```
 
+```
 usage: ./wakeup.sh <folder_path> <option>
+```
 
 options:
   py
@@ -11,6 +18,7 @@ options:
   php
   go
   docker
+  k8s
 
 > add to check's folder if u wanna check something else
 
