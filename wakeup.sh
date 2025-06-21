@@ -99,6 +99,10 @@ run_checks() {
     return
   fi
 
+  # Print results to screen
+  printf "%s\n" "${RESULTS[@]}" ""
+
+  # send to fzf
   printf "%s\n" "${RESULTS[@]}" | \
   fzf --ansi --no-sort --reverse --prompt="Select finding: " \
     --preview='f=$(cut -d: -f1 <<< {}); l=$(cut -d: -f2 <<< {}); [[ -f "$f" ]] && batcat --color=always --style=numbers --highlight-line $l "$f"' \
