@@ -52,7 +52,16 @@ LANGUAGE=$2
 CHECK_FILE="checks/${LANGUAGE}.txt"
 
 declare -a CHECKS
-declare -A FILE_EXTENSIONS=( ["py"]="py" ["go"]="go" ["js"]="js" ["rb"]="rb" ["php"]="php" ["docker"]="yml" ["k8s"]="yml" )
+declare -A FILE_EXTENSIONS=(
+  ["py"]="py"
+  ["go"]="go"
+  ["js"]="js"
+  ["rb"]="rb"
+  ["php"]="php"
+  ["docker"]="yaml"
+  ["k8s"]="yaml"
+  ["secrets"]="secrets"
+)
 
 
 parameters_ready() {
